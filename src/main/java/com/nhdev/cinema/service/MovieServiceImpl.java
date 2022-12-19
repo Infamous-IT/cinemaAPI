@@ -11,6 +11,11 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+/**
+ * TODO: Change create, update, delete methods (only the owner or admin can make changes)
+ * TODO: Only authorized users could use getById method
+ */
+
 @Service
 public class MovieServiceImpl implements MovieService {
 

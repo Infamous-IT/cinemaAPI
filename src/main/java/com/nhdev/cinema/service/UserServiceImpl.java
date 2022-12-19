@@ -11,6 +11,11 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
+/**
+ * TODO: Connect OAuth2 and create methods - login, logout, signIn (change Create method => SignIn)
+ * TODO: The user could be change information only for himself (but the admin can provide change for all)
+ */
+
 @Service
 public class UserServiceImpl implements UserService {
 
